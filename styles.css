@@ -1,0 +1,215 @@
+#first {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color:rgb(0, 7, 5);
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden; /* Hide overflowing text */
+    text-overflow: ellipsis; /* Display ellipsis for overflowing text */
+    margin-left: 100px; /* Add margin to the right to create space */
+    flex-shrink: 0; /* Prevent shrinking of the text */
+    max-width: calc(100% - 250px); /* Adjust the max-width as needed */
+}
+
+body{
+    background: #081b29;
+    color: white;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20x 10%;
+    background-color: rgb(181, 189, 165);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.order-items {
+    margin-top: 0px; /* Adjust margin-top to accommodate the header height */
+}
+.bars a {
+    font-size: 18px;
+    color: rgb(8, 1, 1);
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: 3s;
+    font-weight: 600;
+  
+
+}
+
+.Home{
+    display: flex;
+    align-items: center
+    
+    
+}
+
+.Home-Content{
+    max-width: 600px;
+    text-align: center;
+    margin-top: 400px; 
+    margin-left: 299px;
+    
+}
+.Home-Content h1{
+    font-size: 56px;
+    font-weight: 700;
+    text-align: center;
+}
+.Home-Content h3{
+    font-size: 32px;
+    font-weight: 700;
+    color: aqua;
+    text-align: center;
+}
+
+.Home-Content p{
+    font-size: 16px;
+    text-align: center;
+}
+
+.Home-Content {
+    position: relative; /* Ensure the container is positioned */
+}
+
+.Home-Content leggins1{
+     /* Move the image 10 pixels down from its default position */
+    margin-right: 60px; /* Move the image 20 pixels to the right from its default position */
+}
+.Home-Content img{
+        background-image: url('leggins1.jpg');
+        background-size: cover;
+        margin-left: auto;
+        
+}
+
+.order-items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.order-items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.item {
+    width: calc(20% - 40px); /* 20% width for each item with margin */
+    margin: 20px;
+    text-align: center;
+}
+
+.item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.item h2 {
+    margin-top: 10px;
+}
+
+.item .price {
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.rating {
+    margin-top: 5px;
+}
+
+.star {
+    color: gold;
+    font-size: 20px;
+}
+.order-items {
+    margin-top: 100px; /* Adjust margin-top to move the items down */
+}
+.add-to-cart {
+    background-color: #4CAF50; /* Green color */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px; /* Adjust margin as needed */
+    cursor: pointer;
+    border-radius: 5px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #081b29;
+    color: white;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background-color: rgb(181, 189, 165);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.bars a {
+    font-size: 18px;
+    color: rgb(8, 1, 1);
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: 3s;
+    font-weight: 600;
+}
+
+/* About Section */
+.about-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0;
+}
+
+.about-content {
+    max-width: 800px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.about-content h2 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.about-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.order-items {
+    margin-top: 150px; /* Increase margin-top to move items further down */
+}
+
+
+
+
